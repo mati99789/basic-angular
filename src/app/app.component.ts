@@ -13,7 +13,7 @@ import {TasksComponent} from './tasks/tasks.component';
 })
 export class AppComponent {
   users = DUMMY_USERS
-  private _selectedUserID = 'u1';
+  private _selectedUserID ?: string;
 
 
   get selectedUser() {
